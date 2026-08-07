@@ -13,6 +13,9 @@
  */
 
 const GALLERY = [
+  { src: "images/gallery/CotRR_House_2.jpg",          caption: "Hospitality House" },
+  { src: "images/gallery/CotRR_House.jpg",            caption: "" },
+  { src: "images/gallery/House_Penny.jpg",            caption: "" },
   { src: "images/gallery/13644670_640x480_500.jpg",   caption: "Hospitality House" },
   { src: "images/gallery/13971576_4032x3024_500.jpg", caption: "" },
   { src: "images/gallery/13644645_1512x2016_500.jpg", caption: "" },
