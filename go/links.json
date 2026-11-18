@@ -1,0 +1,48 @@
+{
+ "cash-7g383y": {
+  "url": "https://cash.app/$cleftoftherockranch",
+  "text": "Open Cash App",
+  "where": "Cleft of the Rock Ranch",
+  "pages": [
+   "/donate"
+  ]
+ },
+ "facebook-268laq": {
+  "url": "https://www.facebook.com/cleftoftherockranch",
+  "text": "Facebook",
+  "where": "Cleft of the Rock Ranch",
+  "pages": [
+   "/about",
+   "/donate",
+   "/"
+  ]
+ },
+ "instagram-1kkupm": {
+  "url": "https://www.instagram.com/explore/locations/423883338021904/cleft-of-the-rock-ranch/",
+  "text": "Instagram",
+  "where": "Cleft of the Rock Ranch",
+  "pages": [
+   "/about",
+   "/donate",
+   "/"
+  ]
+ },
+ "paypal-18suh3": {
+  "url": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=cleftoftherockranch@yahoo.com&item_name=Cleft%20of%20the%20Rock%20Ranch&currency_code=USD",
+  "text": "Donate via PayPal",
+  "where": "Cleft of the Rock Ranch",
+  "pages": [
+   "/donate"
+  ]
+ },
+ "wa-1h3lii": {
+  "url": "https://wa.me/15017726602",
+  "text": "+1 (501) 772-6602",
+  "where": "Cleft of the Rock Ranch",
+  "pages": [
+   "/about",
+   "/donate",
+   "/"
+  ]
+ }
+}

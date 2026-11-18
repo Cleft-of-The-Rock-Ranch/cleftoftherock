@@ -17,3 +17,13 @@ py serve.py          # http://localhost:8081
 - `gallery.js` - the photo gallery on the home page.
 - `images/` - photos used by the pages; `assets/` - icons and manifest images.
 - `sitemap.xml`, `robots.txt` - edit `sitemap.xml` by hand when a page is added.
+
+## Outside links (click counting)
+
+Links to other sites point at `/go/<name>` and open in a new tab; the `# go-links` block in `_redirects` sends each to the real address, and Cloudflare logs the click for `C:/code/site-stats`. `go/links.json` lists the names. After adding or editing a page, run from the repo root (Git Bash needs `MSYS_NO_PATHCONV=1`):
+
+```bash
+node C:/code/go-links/go-links.mjs . --base /go/ --own cleftoftherockranch.org,www.cleftoftherockranch.org --skip assets,images,site-stats.html
+```
+
+Safe to re-run. Old `http://` links stay direct (Cloudflare redirect rules must point at https). Give a link `data-no-go` to leave it alone.
